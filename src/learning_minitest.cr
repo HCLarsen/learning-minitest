@@ -1,6 +1,16 @@
 require "./learning_minitest/*"
 
-# TODO: Write documentation for `LearningMinitest`
 module LearningMinitest
-  # TODO: Put your code here
+  class Cat
+    getter happy : Bool
+    property name = ""
+
+    def initialize
+      @happy = false
+    end
+
+    def pet
+      @happy = true
+    end
+  end
 end
